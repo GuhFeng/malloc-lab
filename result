@@ -1,0 +1,26 @@
+  valid  util   ops    secs     Kops  trace
+   yes    86%  100000  0.008908 11226 ./traces/alaska.rep
+ * yes    99%    4805  0.009364   513 ./traces/amptjp.rep
+ * yes    83%    4162  0.004191   993 ./traces/bash.rep
+ * yes    56%   57716  1.316019    44 ./traces/boat.rep
+ * yes    73%    6000  0.020630   291 ./traces/binary2-bal.rep
+ * yes    99%    5032  0.005157   976 ./traces/cccp.rep
+ * yes    99%    5848  0.005379  1087 ./traces/cccp-bal.rep
+ * yes    74%   11991  0.024997   480 ./traces/chrome.rep
+ * yes    99%   20000  0.001274 15700 ./traces/coalesce-big.rep
+   yes    66%   14400  0.000090160023 ./traces/coalescing-bal.rep
+   yes   100%      15  0.000001 18473 ./traces/corners.rep
+ * yes    99%    5683  0.007752   733 ./traces/cp-decl.rep
+ u yes    71%      --        --    -- ./traces/exhaust.rep
+ * yes   100%    5380  0.005517   975 ./traces/expr-bal.rep
+   yes   100%      15  0.000001 19157 ./traces/corners.rep
+ * yes    82%   99544  3.076158    32 ./traces/firefox-reddit2.rep
+ * yes    91%   55092  0.371610   148 ./traces/freeciv.rep
+   yes    86%    1494  0.001072  1394 ./traces/perl.rep
+   yes    34%      10  0.000000 21552 ./traces/malloc.rep
+   yes    28%      17  0.000001 30062 ./traces/malloc-free.rep
+ * yes    99%    5683  0.007835   725 ./traces/cp-decl.rep
+   yes    27%   14401  0.042267   341 ./traces/realloc.rep
+14 13     88%  286936  4.855882    59
+
+Perf index = 53 (util) & 0 (thru) = 53/100
